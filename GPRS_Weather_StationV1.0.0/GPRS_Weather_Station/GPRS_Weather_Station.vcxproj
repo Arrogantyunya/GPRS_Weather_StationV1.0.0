@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C5F80730-F44F-4478-BDAE-6634EFC2CA88}</ProjectGuid>
+    <RootNamespace>
+    </RootNamespace>
+    <ProjectName>GPRS_Weather_Station</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>
+    </PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>
+    </PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>
+    </PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>
+    </PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\GPRS_Weather_Station;$(ProjectDir)..\..\..\..\..\..\Program Files (x86)\Arduino\hardware\stm32\STM32F1\cores\maple;$(ProjectDir)..\..\..\..\..\..\Program Files (x86)\Arduino\hardware\stm32\STM32F1\cores\maple\avr;$(ProjectDir)..\..\..\..\..\..\Program Files (x86)\Arduino\hardware\stm32\STM32F1\cores\maple\libmaple;$(ProjectDir)..\..\..\..\..\..\Program Files (x86)\Arduino\hardware\stm32\STM32F1\cores\maple\stm32f1;$(ProjectDir)..\..\..\..\..\..\Program Files (x86)\Arduino\hardware\stm32\STM32F1\variants\generic_stm32f103c;$(ProjectDir)..\..\..\..\..\..\Program Files (x86)\Arduino\hardware\stm32\STM32F1\system\libmaple;$(ProjectDir)..\..\..\..\..\..\Program Files (x86)\Arduino\hardware\stm32\STM32F1\system\libmaple\include;$(ProjectDir)..\..\..\..\..\..\Program Files (x86)\Arduino\hardware\stm32\STM32F1\system\libmaple\stm32f1\include;$(ProjectDir)..\..\..\..\..\..\Program Files (x86)\Arduino\hardware\stm32\STM32F1\system\libmaple\usb\stm32f1;$(ProjectDir)..\..\..\..\..\..\Program Files (x86)\Arduino\hardware\stm32\STM32F1\system\libmaple\usb\usb_lib;$(ProjectDir)..\..\..\..\..\..\Program Files (x86)\Arduino\hardware\stm32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(ProjectDir)__vm\.GPRS_Weather_Station.vsarduino.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PreprocessorDefinitions>DEBUG_LEVEL=DEBUG_NONE;BOARD_generic_stm32f103c;VECT_TAB_ADDR=0x8000000;ERROR_LED_PORT=GPIOB;ERROR_LED_PIN=1;F_CPU=72000000L;ARDUINO=10809;ARDUINO_GENERIC_STM32F103C;ARDUINO_ARCH_STM32F1;CONFIG_MAPLE_MINI_NO_DISABLE_DEBUG=1;SERIAL_USB;GENERIC_BOOTLOADER;MCU_STM32F103C8;__STM32F1__;__cplusplus=201103L;_VMICRO_INTELLISENSE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <IgnoreStandardIncludePath>true</IgnoreStandardIncludePath>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="VisualMicro" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="GPRS_Weather_Station.ino">
+      <FileType>CppCode</FileType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AT24C1024.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="BCD_CON.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="board_config.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="data_transmit.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="EDB.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="GPSData.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="GSM\TinyGsmClient.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="GSM\TinyGsmClientA6.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="GSM\TinyGsmClientESP8266.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="GSM\TinyGsmClientM590.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="GSM\TinyGsmClientSIM800.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="GSM\TinyGsmCommon.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="GSM\TinyGsmFifo.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="memory.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="MODBUS_RTU_CRC16.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="Periph.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="private_delay.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="Private_RTC.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="Private_Sensor.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="SoftwareI2C.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="User_Clock.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="User_CRC8.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="__vm\.GPRS_Weather_Station.vsarduino.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AT24C1024.cpp" />
+    <ClCompile Include="BCD_CON.cpp" />
+    <ClCompile Include="data_transmit.cpp" />
+    <ClCompile Include="EDB.cpp" />
+    <ClCompile Include="GPSData.cpp" />
+    <ClCompile Include="memory.cpp" />
+    <ClCompile Include="MODBUS_RTU_CRC16.cpp" />
+    <ClCompile Include="Periph.cpp" />
+    <ClCompile Include="private_delay.cpp" />
+    <ClCompile Include="Private_RTC.cpp" />
+    <ClCompile Include="Private_Sensor.cpp" />
+    <ClCompile Include="SoftwareI2C.cpp" />
+    <ClCompile Include="User_Clock.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="User_CRC8.cpp" />
+  </ItemGroup>
+  <PropertyGroup>
+    <DebuggerFlavor>VisualMicroDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
