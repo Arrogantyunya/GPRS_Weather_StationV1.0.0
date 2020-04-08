@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{C5F80730-F44F-4478-BDAE-6634EFC2CA88}</ProjectGuid>
+    <ProjectGuid>{E6FFD1F1-F010-4582-B99A-55145F3C60FC}</ProjectGuid>
     <RootNamespace>
     </RootNamespace>
     <ProjectName>GPRS_Weather_Station</ProjectName>
@@ -73,9 +73,9 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>$(ProjectDir)..\GPRS_Weather_Station;$(ProjectDir)..\..\..\..\..\..\Program Files (x86)\Arduino\hardware\stm32\STM32F1\cores\maple;$(ProjectDir)..\..\..\..\..\..\Program Files (x86)\Arduino\hardware\stm32\STM32F1\cores\maple\avr;$(ProjectDir)..\..\..\..\..\..\Program Files (x86)\Arduino\hardware\stm32\STM32F1\cores\maple\libmaple;$(ProjectDir)..\..\..\..\..\..\Program Files (x86)\Arduino\hardware\stm32\STM32F1\cores\maple\stm32f1;$(ProjectDir)..\..\..\..\..\..\Program Files (x86)\Arduino\hardware\stm32\STM32F1\variants\generic_stm32f103c;$(ProjectDir)..\..\..\..\..\..\Program Files (x86)\Arduino\hardware\stm32\STM32F1\system\libmaple;$(ProjectDir)..\..\..\..\..\..\Program Files (x86)\Arduino\hardware\stm32\STM32F1\system\libmaple\include;$(ProjectDir)..\..\..\..\..\..\Program Files (x86)\Arduino\hardware\stm32\STM32F1\system\libmaple\stm32f1\include;$(ProjectDir)..\..\..\..\..\..\Program Files (x86)\Arduino\hardware\stm32\STM32F1\system\libmaple\usb\stm32f1;$(ProjectDir)..\..\..\..\..\..\Program Files (x86)\Arduino\hardware\stm32\STM32F1\system\libmaple\usb\usb_lib;$(ProjectDir)..\..\..\..\..\..\Program Files (x86)\Arduino\hardware\stm32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\GPRS_Weather_Station;$(ProjectDir)..\..\..\..\..\..\..\Program Files (x86)\Arduino\hardware\stm32\STM32F1\cores\maple;$(ProjectDir)..\..\..\..\..\..\..\Program Files (x86)\Arduino\hardware\stm32\STM32F1\cores\maple\avr;$(ProjectDir)..\..\..\..\..\..\..\Program Files (x86)\Arduino\hardware\stm32\STM32F1\cores\maple\libmaple;$(ProjectDir)..\..\..\..\..\..\..\Program Files (x86)\Arduino\hardware\stm32\STM32F1\cores\maple\stm32f1;$(ProjectDir)..\..\..\..\..\..\..\Program Files (x86)\Arduino\hardware\stm32\STM32F1\variants\generic_stm32f103r;$(ProjectDir)..\..\..\..\..\..\..\Program Files (x86)\Arduino\hardware\stm32\STM32F1\system\libmaple;$(ProjectDir)..\..\..\..\..\..\..\Program Files (x86)\Arduino\hardware\stm32\STM32F1\system\libmaple\include;$(ProjectDir)..\..\..\..\..\..\..\Program Files (x86)\Arduino\hardware\stm32\STM32F1\system\libmaple\stm32f1\include;$(ProjectDir)..\..\..\..\..\..\..\Program Files (x86)\Arduino\hardware\stm32\STM32F1\system\libmaple\usb\stm32f1;$(ProjectDir)..\..\..\..\..\..\..\Program Files (x86)\Arduino\hardware\stm32\STM32F1\system\libmaple\usb\usb_lib;$(ProjectDir)..\..\..\..\..\..\..\Program Files (x86)\Arduino\hardware\stm32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>$(ProjectDir)__vm\.GPRS_Weather_Station.vsarduino.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <PreprocessorDefinitions>DEBUG_LEVEL=DEBUG_NONE;BOARD_generic_stm32f103c;VECT_TAB_ADDR=0x8000000;ERROR_LED_PORT=GPIOB;ERROR_LED_PIN=1;F_CPU=72000000L;ARDUINO=10809;ARDUINO_GENERIC_STM32F103C;ARDUINO_ARCH_STM32F1;CONFIG_MAPLE_MINI_NO_DISABLE_DEBUG=1;SERIAL_USB;GENERIC_BOOTLOADER;MCU_STM32F103C8;__STM32F1__;__cplusplus=201103L;_VMICRO_INTELLISENSE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>DEBUG_LEVEL=DEBUG_NONE;BOARD_generic_stm32f103r;VECT_TAB_ADDR=0x8000000;ERROR_LED_PORT=GPIOB;ERROR_LED_PIN=1;F_CPU=72000000L;ARDUINO=10809;ARDUINO_GENERIC_STM32F103R;ARDUINO_ARCH_STM32F1;CONFIG_MAPLE_MINI_NO_DISABLE_DEBUG=1;SERIAL_USB;GENERIC_BOOTLOADER;MCU_STM32F103RC;__STM32F1__;__cplusplus=201103L;_VMICRO_INTELLISENSE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
