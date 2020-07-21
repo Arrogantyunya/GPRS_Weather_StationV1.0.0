@@ -17,7 +17,7 @@ TinyGsm modem(GSM_Serial);
 TinyGsmClient client(modem);
 
 unsigned int Run_Time_Out_Sec = 0;          //运行超时计数
-char Toggle = 0;                             //状态灯闪灭位翻转
+char Toggle = 0;                            //状态灯闪灭位翻转
 
 void setup()
 {
